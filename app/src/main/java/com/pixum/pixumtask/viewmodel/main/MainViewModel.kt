@@ -3,7 +3,6 @@ package com.pixum.pixumtask.viewmodel.main
 import android.app.Application
 import android.content.Context
 import android.content.Intent
-import androidx.core.content.ContextCompat.startActivity
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
