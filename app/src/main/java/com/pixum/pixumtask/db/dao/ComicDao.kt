@@ -13,7 +13,7 @@ interface ComicDao {
     suspend fun delete(note: Comic)
 
     @Query("SELECT * FROM comicTable")
-    fun getAllNotes(): LiveData<List<Comic>>
+    fun getAllComics(): LiveData<List<Comic>>
 
     @Update
     suspend fun update(note: Comic)
